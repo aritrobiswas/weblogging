@@ -1,0 +1,10 @@
+<dl>
+      <dt>Log name:
+      <dd><input type="text" name="log to search">
+      <dd><input type="submit" name="submit" value="search">
+
+      <dt>Add log:
+      <dd><input type="text" name="log to create">
+      <dd><input type="submit" name="submit" value="create log">
+    </dl>
+  </form>

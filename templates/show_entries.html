@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block body %}
+  <h2>Submit data</h2>
+  {% if error %}<p class="error"><strong>Error:</strong> {{ error }}{% endif %}
+  <form action="{{ url_for('show_entries') }}" method="post">
+    <dl>
+      <dt>Submit data:
+      <dd><input type="text" name="data">
+      <dd><input type="submit" value="">
+    </dl>
+  </form>
+
+{% endblock %}

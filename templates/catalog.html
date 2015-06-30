@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block body %}
+  <h2>Click on the log you wish to edit or type the log name into the search box</h2>
+  {% if error %}<p class="error"><strong>Error:</strong> {{ error }}{% endif %}
+  <form action="{{ url_for('catalog',username=%s) }}" method="post">
+    <dl>
+      <dt>Log name:
+      <dd><input type="text" name="log">
+      <dd><input type="submit" value="submit">
+    </dl>
+  </form>
+{% endblock %}

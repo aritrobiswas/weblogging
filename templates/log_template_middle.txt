@@ -1,0 +1,6 @@
+    <dl>
+      <dt>Submit data:
+      <dd><input type="text" name="data">
+      <dd><input type="submit" value="">
+    </dl>
+  </form>
